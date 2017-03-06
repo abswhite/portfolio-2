@@ -48,4 +48,16 @@ nav ul {
   footer {
     margin: 0 auto;
   }
+
+
+    div {
+      margin-left: 0px;
+      margin-right: 0px;
+      float: left;
+      border: 0;
+    }
+
+    div::after {
+      clear: both;
+    }
 }
