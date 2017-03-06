@@ -17,17 +17,20 @@
   .home-long {
     width: 700px;
     height: 300px;
+    float: left;
   }
 
   .home-short {
     width: 300px;
     height: 300px;
+    float: left;
   }
 
   .row {
     display: block;
     width: 1000px;
     height: 300px;
+    margin-bottom: 40px;
   }
 
   .home-link {
