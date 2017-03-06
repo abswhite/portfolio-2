@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+  width: 100%;
+  margin: 0px;
+  font-family: 'Cutive Mono';
+}
+
+p {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0px;
+  display: inline;
+  font-size: 40px;
+  font-family: 'Cutive Mono';
+}
+
+div {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav ul {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media only screen and (min-width: 640px) {
+  body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+  }
+
+  footer {
+    margin: 0 auto;
+  }
+}
