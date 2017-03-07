@@ -39,6 +39,10 @@
   display: block;
   font-family: 'Cutive Mono';
 }
+.home-div:hover {
+  background-color: #99ff99;
+  color: black; 
+ }
 
 #future {
   width: 100%;

@@ -10,17 +10,33 @@ initial-scale=1">
   <link rel="stylesheet" href="/styles/layout.css">
   <link rel="stylesheet" href="/styles/img.css">
   <link rel="stylesheet" href="/styles/module.css">
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Bungee+Inline|Open+Sans+Condensed:300" rel="stylesheet">
+
+  <script id="article-template" type="text/x-handlebars-template">
+    <article>
+      <img src="{{imgUrl}}" class="project-img"/>
+      <!-- <h3>{{title}}</h3> -->
+      <p>Title: {{title}}</p>
+      <p>Repository Link: <a href="{{repoUrl}}">{{repoUrl}}</a></p>
+      <p>Website Link: <a href="{{siteUrl}}">{{siteUrl}}</a></p>
+      <p>Resources: <span class="color-4">{{resources}}</span></p>
+      {{{description}}}
+      <br>
+    </article>
+  </script>
+</head>
+
   <body>
     <header>
       <h1>Abigail White</h1>
       <nav>
         <span class="icon-menu3"></span>
         <ul>
-          <li class="nav"><a href="#home">Home</a></li>
-          <li class="nav"><a href="#about">About</a></li>
-          <li class="nav"><a href="#projects">Projects</a></li>
-          <li class="nav"><a href="contact">Contact</a></li>
+          <li class="nav"><a href="/">Home</a></li>
+          <li class="nav"><a href="/about">About</a></li>
+          <li class="nav"><a href="/projects">Projects</a></li>
+          <li class="nav"><a href="/contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -34,7 +50,7 @@ initial-scale=1">
           <h3 class="home-div color-2">Talk 2 Me</h3>
         </div>
 
-      <section id="about"><h4>About</h4></section>
+      <section id="about"><h4>About</h4>
 
         <h4 class="about-div color-1">Winged-eyeliner. 22 years. Full-Stack JavaScript Web Developer. Economics major.</h4>
         <img src="/images/baby-abbi.jpeg" />
@@ -46,7 +62,7 @@ initial-scale=1">
               <p>Major: <span class="color-2"> B.S. Managerial Economics</span></p>
               <p>Concentration in Law; Minor in Global Studies</p>
               <p>Presidential Scholarship Recipient</p>
-              <p>Awarded President's List Every Semester On Campus</p>
+              <p>Awarded President's List Every Semester Award was Available</p>
             </div>
 
             <div class="education-div">
@@ -80,7 +96,7 @@ initial-scale=1">
             <h3>OnForce Inc.</h3>
             <h5>Lexington, MA | May 2015-March 2016</h5>
             <br>
-            <p>Software Product Management Intern</p>
+            <p><span class="color-1">Software Product Management Intern</span></p>
             <p>Concentration in Law; Minor in Global Studies</p>
           </div>
 
@@ -125,15 +141,33 @@ initial-scale=1">
       </section>
 
 
-      <section id="projects"><h4>Projects</h4></section>
+      <section id="projects"><h4>Projects</h4>
+        <div></div>
+      </section>
 
-      <section id="contact"><h4>Contact</h4></section>
+      <section id="contact"><h4>Contact</h4>
+        <h4 class="home-education color-5 background-limit-1">Social</h4>
+        <h4 class="home-work color-2 background-limit-2">Email</h4>
+      </section>
 
     </main>
 
     <footer> </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <script src="/scripts/model/projectsRender.js"></script>
     <script src="/scripts/view/cssViews.js"></script>
+
+    <script src="/scripts/controller/homeController.js"></script>
+    <script src="/scripts/controller/aboutController.js"></script>
+    <script src="/scripts/controller/projectsController.js"></script>
+    <script src="/scripts/controller/contactController.js"></script>
+    <script src="/scripts/controller/routes.js"></script>
+
+    <script>
+      Projects.fetchAll();
+      </script>
   </body>
-  </html>
+</html>

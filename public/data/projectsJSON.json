@@ -1,0 +1,18 @@
+[
+  {
+    "title": "MEETPUP",
+    "description": "<p>Concept: Connect pet owners to local animal-related events in their area using zip code user input. <br> Strategy: Represent data visually using maps and markers.</p>",
+    "imgUrl": "/images/meetpup-logo-large.png",
+    "resources": "jQuery, handlebars.js, page.js, MeetUp API, Google Maps API, Moment.js, Wrights HQ",
+    "repoUrl": "https://github.com/MeetPup/301_final_project",
+    "siteUrl": "http://www.meetpup.party/"
+  },
+  {
+    "title": "Take a Hike!",
+    "description": "<p>Concept: Help users identify their perfect hike based on their self-reported experiences, tastes, and preferred proximity to near-death.<br>Strategy: Utilize 10-question quiz format.</p>",
+    "imgUrl": "/images/take-a-hike-logo-large.png",
+    "resources": "vanilla JS",
+    "repoUrl": "https://github.com/abswhite/take-a-hike",
+    "siteUrl": "https://abswhite.github.io/take-a-hike/index.html"
+  }
+]
