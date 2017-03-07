@@ -1,0 +1,48 @@
+.home-education {
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+
+.home-work {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.education-div {
+  margin-top: 25px;
+}
+
+.about-div {
+  margin: 0;
+}
+
+.left-align {
+  text-align: left;
+  margin-left: 5px;
+}
+
+.home-div {
+  width: 100%;
+  height: 100px;
+  padding-top: 75px;
+  display: block;
+  font-family: 'Cutive Mono';
+}
+
+#future {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 0px;
+}

@@ -1,0 +1,96 @@
+html {
+  height: 100%;
+}
+
+strong {
+  font-size: 20px;
+  font-family: 'Cutive Mono';
+}
+
+body {
+  line-height: 1.5;
+  font-size: 100%;
+  color: #313131;
+  font-family: 'Open Sans Condensed';
+  background-color: white;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  margin: 1em;
+  width: 80%;
+}
+
+h3 {
+  margin: 0;
+  font-size: 25px;
+  /*font-family: 'Cutive Mono';*/
+}
+
+h1 {
+  color: black;
+  font-size: 40px;
+  font-family: 'Cutive Mono';
+}
+
+h4 {
+  font-size: 35px;
+  font-family: 'Cutive Mono';
+}
+
+h2 {
+  clear: both;
+  font-size: 40px;
+  margin: 0;
+}
+
+h5 {
+  font-size: 19px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 10px;
+}
+
+li {
+  font-size: 16px;
+  color: black;
+  margin-left: 8px;
+}
+
+nav li {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;;
+  margin: 0;
+}
+
+a, a:link {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  background-color: #99ff99;
+  color: white;
+}
+
+a:active {
+  font-weight: bold;
+}
+
+
+footer {
+  margin: 10px auto;
+  font-size: 10px;
+}
