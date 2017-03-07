@@ -1,66 +1,81 @@
+html {
+  height: 100%;
+}
+
+strong {
+  font-size: 20px;
+  font-family: 'Cutive Mono';
+}
+
 body {
+  line-height: 1.5;
+  font-size: 100%;
+  color: #313131;
+  font-family: 'Cutive Mono';
   background-color: white;
-  width: 100%;
-  margin: 0px;
-  font-family: 'Cutive Mono';
-}
-
-h4 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0px;
-  display: inline;
-  font-size: 40px;
-  font-family: 'Cutive Mono';
-}
-
-div {
-  margin-right: 0px;
+  text-align: center;
   margin-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-right: 0px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  margin: 1em;
+  width: 80%;
+}
+
+h3 {
+  margin: 0;
 }
 
 h1 {
-  text-align: center;
+  color: black;
   font-size: 40px;
 }
 
-nav li {
-  display: inline-block;
-}
-
-nav ul {
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-section {
+h2 {
   clear: both;
+  font-size: 40px;
+  margin: 0;
 }
 
-@media only screen and (min-width: 800px) {
-  body {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-  }
+h5 {
+  font-size: 16px;
+  margin: 0;
+}
 
-  footer {
-    margin: 0 auto;
-  }
+ul {
+  list-style:none;
+  padding-left: 0px;
+  margin: 10px;
+}
 
-    div {
-      margin-left: 0px;
-      margin-right: 0px;
-      border: 0;
-    }
+li {
+  font-size: 20px;
+  color: darkgrey;
+}
 
-    div::after {
-      clear: both;
-    }
+p {
+  font-size: 12px;;
+  margin: 0;
+}
+
+a, a:link {
+  text-decoration: none;
+}
+
+
+a:active {
+  font-weight: bold;
+}
+
+i {
+  color: grey;
+}
+
+footer {
+  margin: 10px auto;
+  font-size: 10px;
 }

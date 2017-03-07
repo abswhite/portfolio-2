@@ -1,17 +1,12 @@
-#home-short-img {
-  display: none;
+img {
+  width: 100%;
+  height: auto;
 }
 
-#white-star {
-  width: 200px;
-  height: 200px;
-  margin-left: 25px;
-  margin-right: auto;
-}
-
-@media only screen and (min-width: 800px) {
-  #home-short-img {
-    display: block;
-    width: 300px;
-    height: 300px;
+@media only screen and (min-width: 640px) {
+  img {
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+  }
 }
