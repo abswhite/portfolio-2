@@ -22,3 +22,12 @@
 .education-div {
   margin-top: 25px;
 }
+
+.home-div {
+  margin: 0;
+}
+
+.left-align {
+  text-align: left;
+  margin-left: 5px;
+}

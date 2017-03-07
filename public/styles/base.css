@@ -11,7 +11,7 @@ body {
   line-height: 1.5;
   font-size: 100%;
   color: #313131;
-  font-family: 'Cutive Mono';
+  font-family: 'Open Sans Condensed';
   background-color: white;
   text-align: center;
   margin-left: 0px;
@@ -28,11 +28,19 @@ hr {
 
 h3 {
   margin: 0;
+  font-size: 25px;
+  /*font-family: 'Cutive Mono';*/
 }
 
 h1 {
   color: black;
   font-size: 40px;
+  font-family: 'Cutive Mono';
+}
+
+h4 {
+  font-size: 35px;
+  font-family: 'Cutive Mono';
 }
 
 h2 {
@@ -42,23 +50,28 @@ h2 {
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 19px;
   margin: 0;
 }
 
 ul {
-  list-style:none;
+  list-style: none;
   padding-left: 0px;
   margin: 10px;
 }
 
 li {
+  font-size: 16px;
+  color: black;
+  margin-left: 8px;
+}
+
+nav li {
   font-size: 20px;
-  color: darkgrey;
 }
 
 p {
-  font-size: 12px;;
+  font-size: 18px;;
   margin: 0;
 }
 
@@ -71,9 +84,6 @@ a:active {
   font-weight: bold;
 }
 
-i {
-  color: grey;
-}
 
 footer {
   margin: 10px auto;

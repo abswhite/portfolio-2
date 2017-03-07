@@ -27,10 +27,6 @@
   margin: 1%;
 }
 
-h4 {
-  font-size: 35px;
-}
-
 .background-limit {
   width: 100%;
   margin-top: 30px;
@@ -57,6 +53,11 @@ h4 {
     display: inline-block;
   }
 
+  .home-div {
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+
   .background-limit-1 {
     width: 550px;
     margin-top: 30px;
@@ -64,11 +65,11 @@ h4 {
 
   .background-limit-2 {
     width: 550px;
-    margin-top: 300px;
+    margin-top: 250px;
   }
 
   .education-div {
-    width: 325px;;
+    width: 330px;;
     height: 200px;
     display: inline-block;
     margin-top: 20px;
