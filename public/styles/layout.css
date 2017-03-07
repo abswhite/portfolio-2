@@ -23,11 +23,26 @@
   margin-top: 25px;
 }
 
-.home-div {
+.about-div {
   margin: 0;
 }
 
 .left-align {
   text-align: left;
   margin-left: 5px;
+}
+
+.home-div {
+  width: 100%;
+  height: 100px;
+  padding-top: 75px;
+  display: block;
+  font-family: 'Cutive Mono';
+}
+
+#future {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 0px;
 }

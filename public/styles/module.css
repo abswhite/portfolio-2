@@ -16,6 +16,7 @@
 
 .color-5 {
   background-color: #3a4664;
+  color: white;
 }
 
 .color-6 {
@@ -32,6 +33,10 @@
   margin-top: 30px;
 }
 
+.nav {
+  padding: 5px;
+
+}
 
 @media only screen and (min-width: 640px) {
   .icon-menu3 {
@@ -53,7 +58,7 @@
     display: inline-block;
   }
 
-  .home-div {
+  .about-div {
     margin-bottom: 30px;
     padding: 10px;
   }
@@ -82,4 +87,23 @@
   .education-div:after {
     clear: both;
   }
+
+  .home-div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 85px;
+    margin: 3px;
+  }
+
+  #homepage {
+    margin-top: 40px;
+  }
+  #future {
+    width: 698px;
+    height: auto;
+    display: inline-block;
+    margin-left: 0px;
+  }
+
 }

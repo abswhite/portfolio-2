@@ -17,25 +17,36 @@ initial-scale=1">
       <nav>
         <span class="icon-menu3"></span>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li class="nav"><a href="#home">Home</a></li>
+          <li class="nav"><a href="#about">About</a></li>
+          <li class="nav"><a href="#projects">Projects</a></li>
+          <li class="nav"><a href="contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section id="home">
-          <h4 class="home-div color-1">Hi. I'm Abbi. I am a 22 year-old Full-Stack JavaScript Web Developer.</h4>
+        <h4 class="about-div color-4">Hi. I'm Abbi. I am a 22 year-old Full-Stack JavaScript Web Developer.</h4>
+        <div id="homepage">
+          <h3 class="home-div color-3">Stalk Me</h3>
+          <h3 class="home-div color-5">Hire Me</h3>
+          <h3 class="home-div color-2">Talk 2 Me</h3>
+        </div>
+
+      <section id="about"><h4>About</h4></section>
+
+        <h4 class="about-div color-1">Winged-eyeliner. 22 years. Full-Stack JavaScript Web Developer. Economics major.</h4>
         <img src="/images/baby-abbi.jpeg" />
           <h4 class="home-education color-4 background-limit-1">Education</h4>
             <div  class="education-div">
               <h3>Bentley University</h3>
               <h5>Waltham, MA | Sept 2013-Dec 2016</h5>
               <br>
-              <p>Major: B.S. Managerial Economics</p>
+              <p>Major: <span class="color-2"> B.S. Managerial Economics</span></p>
               <p>Concentration in Law; Minor in Global Studies</p>
+              <p>Presidential Scholarship Recipient</p>
+              <p>Awarded President's List Every Semester On Campus</p>
             </div>
 
             <div class="education-div">
@@ -43,7 +54,7 @@ initial-scale=1">
               <h5>London, UK | Sept 2015-June 2016</h5>
               <br>
               <p>General Course Programme: Dept of Economic History</p>
-              <p>Awarded Firsts in Environmental Economics and Information Technology and the Law</p>
+              <p><span class="color-3">Awarded Firsts in Information Technology Law </span>and Environmental Economics</p>
             </div>
 
             <div class="education-div">
@@ -55,7 +66,7 @@ initial-scale=1">
             </div>
 
 
-          <h4 class="home-work color-6 background-limit-2">Work</h4>
+          <h4 class="home-work color-6 background-limit-2">Leadership</h4>
 
           <div  class="education-div">
             <h3>HOPE <i>worldwide</i></h3>
@@ -82,39 +93,47 @@ initial-scale=1">
           </div>
 
           <h4 class="home-education color-3 background-limit-2">The Future</h4>
-          <h3 class="left-align">Relevant Skills</h3>
-            <ul class="left-align">
-              <li>Front-End: CSS Responsive Design, jQuery Events, JavaScript, DOM Manipulation, Handlebars.js</li>
-              <li>Back-End: Node.js, Express, SQL querying, Database System Management </li>
-              <li>Organization: GitHub Repository Flow, SMACSS</li>
-              <li>Environments: Unix</li>
-            </ul>
-          <h3 class="left-align">Cares About:</h3>
-            <ul class="left-align">
-              <li>Business Strategy relating to software feature development</li>
-              <li>Economic development of impoverished communities by means of technical and financial education
-              STEM, financial, and business education for girls</li>
-              <li>Big Data Analytics</li>
-              <li>Nutrition and Fitness</li>
-            </ul>
-          <h3 class="left-align">Looking For:</h3>
-            <ul class="left-align">
-              <li>Full-time position in Web Development</li>
-              <li>Intracompany mentorship</li>
-              <li>Opportunities for challenge and growth</li>
-              <li>Boston, Seattle, London</li>
-            </ul>
+          <img src="/images/simple-abbi.jpg" id="img-portrait"/>
+          <div id="future">
+            <h3 class="left-align">Relevant Skills</h3>
+              <ul class="left-align">
+                <li>Front-End: <span class="color-6">CSS Responsive Design, jQuery Events, JavaScript, DOM Manipulation, Handlebars.js</span></li>
+                <li>Back-End: Node.js, Express, SQL querying, Database System Management </li>
+                <li>Organization: GitHub Repository Flow, SMACSS</li>
+                <li>Environments: Unix</li>
+              </ul>
+            <h3 class="left-align">Cares About:</h3>
+              <ul class="left-align">
+                <li>Business Strategy relating to software feature development</li>
+                <li>Economic development of impoverished communities by means of technical and financial education
+                <li><span class="color-1">STEM, financial, and business education for women and girls</span></li>
+                <li>Big Data Analytics</li>
+                <li>Nutrition and Fitness</li>
+              </ul>
+            <h3 class="left-align">Looking For:</h3>
+              <ul class="left-align">
+                <li>Full-time position in Web Development</li>
+                <li>Intracompany<span class="color-5"> mentorship </span></li>
+                <li>Opportunities for challenge and growth</li>
+                <li><span class="color-4">Boston, Seattle, London</span></li>
+              </ul>
+          </div>
+          <br><br><br>
+          <hr>
+          <p>other things I care about  --books: <span class="color-2">"How to Win Friends and Influence People" (Carniege), "Conscious Capitalism" (Mackey),</span> "Extravagant Grace" (DeGuid)  --music: childish gambino, the staves  --stuff: comfortable shoes, yoga, shakespeare conspiracy theories, <span class="color-6">bruce springsteen,</span> veggies</p>
 
       </section>
 
-      <!-- <section id="about">About</section>
 
-      <section id="projects">Projects</section>
+      <section id="projects"><h4>Projects</h4></section>
 
-      <section id="contact">Contact</section> -->
+      <section id="contact"><h4>Contact</h4></section>
 
     </main>
 
     <footer> </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/scripts/view/cssViews.js"></script>
   </body>
   </html>

@@ -77,8 +77,13 @@ p {
 
 a, a:link {
   text-decoration: none;
+  color: grey;
 }
 
+a:hover {
+  background-color: #99ff99;
+  color: white;
+}
 
 a:active {
   font-weight: bold;
