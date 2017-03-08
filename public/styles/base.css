@@ -77,10 +77,10 @@ p {
 
 a, a:link {
   text-decoration: none;
-  color: grey;
+  color: black;
 }
 
-a:hover {
+#about a:hover, #projects a:hover, #contact a:hover {
   background-color: #99ff99;
 }
 
