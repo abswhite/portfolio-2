@@ -9,6 +9,7 @@
     $('#about').hide();
     $('#projects').hide();
     $('#contact').hide();
+    $('nav').hide();
   };
 
   module.homeController = homeController;
