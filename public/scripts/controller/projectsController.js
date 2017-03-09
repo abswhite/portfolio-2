@@ -4,7 +4,6 @@
   const projectsController = {};
 
   projectsController.init = function() {
-    console.log('projects controller running');
     $('#projects').show();
     $('nav').show();
     $('#home').hide();

@@ -4,7 +4,6 @@
   const contactController = {};
 
   contactController.init = function() {
-    console.log('contact controller running');
     $('#contact').show();
     $('nav').show();
     $('#home').hide();

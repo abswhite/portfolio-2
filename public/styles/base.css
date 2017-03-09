@@ -80,7 +80,7 @@ a, a:link {
   color: black;
 }
 
-#about a:hover, #projects a:hover, #contact a:hover {
+#about a:hover, #projects a:hover, #contact a:hover, nav a:hover {
   background-color: #99ff99;
 }
 

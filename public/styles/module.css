@@ -45,6 +45,10 @@ article {
   margin-right: auto;
 }
 
+#about br {
+  display: none;
+}
+
 @media only screen and (min-width: 640px) {
   .icon-menu3 {
   display: none;
@@ -81,7 +85,7 @@ article {
 
   .background-limit-3 {
     width: 550px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .education-div {
@@ -126,4 +130,8 @@ article {
     margin-top: 60px;
   }
 
+
+  #about br {
+   display: block;
+  }
 }

@@ -10,6 +10,7 @@
     this.imgUrl = opts.imgUrl;
     this.repoUrl = opts.repoUrl;
     this.siteUrl = opts.siteUrl;
+    this.contributions = opts.contributions;
   }
 
   Projects.all = [];
@@ -26,10 +27,8 @@
   }
 
   projectView.projectsRender = function() {
-    console.log('render function called');
     Projects.all.forEach(function(a) {
       $('#projects div').append(a.toHtml());
-      console.log('appending');
     });
   };
 
@@ -37,14 +36,12 @@
     if (localStorage.projectsData) {
       Projects.loadAll(JSON.parse(localStorage.projectsData));
       projectView.projectsRender();
-      console.log('fetchall 1')
     } else {
       $.getJSON('/data/projectsJSON.json')
       .then(function(projectsData) {
         Projects.loadAll(projectsData);
         localStorage.setItem('projectsData', JSON.stringify(projectsData));
         projectView.projectsRender();
-        console.log('fetchall 2');
       })
       .then(function() {
         if (callback)

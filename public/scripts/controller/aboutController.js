@@ -4,7 +4,6 @@
   const aboutController = {};
 
   aboutController.init = function() {
-    console.log('about controller running');
     $('#about').show();
     $('nav').show();
     $('#home').hide();
