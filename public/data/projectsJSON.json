@@ -6,7 +6,7 @@
     "resources": "jQuery, handlebars.js, page.js, MeetUp API, Google Maps API, Moment.js, Wrights HQ",
     "repoUrl": "https://github.com/MeetPup/301_final_project",
     "siteUrl": "http://www.meetpup.party/",
-    "contributions": "Created entire CSS theme (colors, design, logo), including CSS mobile responsiveness (page layout and navigation). I worked with Robert to analyze and configure both the Google Maps and MeetUp API using ajax calls and proxies. I helped develop input validation and persist zip code data on the page through use of localStorage and format the map and map content. In addition, I collaborated with team members to debug code for special cases, such as no events near zip code, invalid zip codes, zip codes outside of the United States, etc. I also took on a managerial role by facilitating group synch-ups, manual group coding, and work delegation."
+    "contributions": "Created entire CSS theme (colors, design, logo), including CSS mobile responsiveness (page layout and navigation). I worked with Robert to analyze and configure both the Google Maps and MeetUp API using ajax calls and proxies. I helped develop input validation and persist zip code data on the page through use of localStorage. In addition, I formated the map and map content and collaborated with team members to debug code for special cases, such as 'no events' near zip code, invalid zip codes, zip codes outside of the United States, etc. I also took on a managerial role by facilitating group synch-ups, manual group coding, and work delegation."
   },
   {
     "title": "Take a Hike!",
