@@ -4,14 +4,14 @@ html {
 
 strong {
   font-size: 20px;
-  font-family: 'Cutive Mono';
+  font-family: 'Cutive Mono', monospace;
 }
 
 body {
   line-height: 1.5;
   font-size: 100%;
   color: #313131;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', arial;
   background-color: white;
   text-align: center;
   margin-left: 0px;
@@ -29,18 +29,17 @@ hr {
 h3 {
   margin: 0;
   font-size: 25px;
-  /*font-family: 'Cutive Mono';*/
 }
 
 h1 {
   color: black;
   font-size: 40px;
-  font-family: 'Cutive Mono';
+  font-family: 'Cutive Mono', monospace;
 }
 
 h4 {
   font-size: 35px;
-  font-family: 'Cutive Mono';
+  font-family: 'Cutive Mono', monospace;
 }
 
 h2 {

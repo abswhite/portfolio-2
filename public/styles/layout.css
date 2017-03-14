@@ -42,7 +42,7 @@
   height: 100px;
   padding-top: 75px;
   display: block;
-  font-family: 'Cutive Mono';
+  font-family: 'Cutive Mono', monospace;
 }
 .home-div:hover {
   background-color: #99ff99;
