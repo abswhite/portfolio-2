@@ -93,12 +93,17 @@ a, a:link {
   color: black;
 }
 
-/*#about a:hover, #projects a:hover, #contact a:hover, nav a:hover {
-  text-decoration: #99ff99;
-}*/
+nav a {
+  padding-left: 14px;
+}
+
+#about a:hover, #projects a:hover, #contact a:hover, nav a:hover {
+  background-color: #eaa0a2;
+  color: black;
+}
 
 #about a, #projects a, #contact a {
-  color: #99ff99;
+  color: #eaa0a2;
 }
 
 a:active {
