@@ -93,10 +93,6 @@ a, a:link {
   color: black;
 }
 
-nav a {
-  padding-left: 14px;
-}
-
 #about a:hover, #projects a:hover, #contact a:hover, nav a:hover {
   background-color: #eaa0a2;
   color: black;
