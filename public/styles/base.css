@@ -4,43 +4,46 @@ html {
 
 strong {
   font-size: 20px;
-  font-family: 'Cutive Mono';
+  font-family: 'Cutive Mono', monospace;
 }
 
 body {
   line-height: 1.5;
   font-size: 100%;
   color: #313131;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', arial;
   background-color: white;
   text-align: center;
   margin-left: 0px;
   margin-right: 0px;
-  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+main {
+  flex: 1;
+}
+
 hr {
   margin: 1em;
-  width: 80%;
+  width: 200px;
 }
 
 h3 {
   margin: 0;
   font-size: 25px;
-  /*font-family: 'Cutive Mono';*/
 }
 
 h1 {
   color: black;
   font-size: 40px;
-  font-family: 'Cutive Mono';
+  font-family: 'Cutive Mono', monospace;
 }
 
 h4 {
   font-size: 35px;
-  font-family: 'Cutive Mono';
+  font-family: 'Cutive Mono', monospace;
 }
 
 h2 {
@@ -56,8 +59,8 @@ h5 {
 
 ul {
   list-style: none;
-  padding-left: 0px;
-  margin: 10px;
+  list-style-position: inside;
+  padding-left:0;
 }
 
 li {
@@ -66,8 +69,18 @@ li {
   margin-left: 8px;
 }
 
+nav ul {
+  display: none;
+}
+
+nav:hover ul {
+  display: block;
+}
+
 nav li {
   font-size: 20px;
+  padding-left: 0px;
+  margin: 0px;
 }
 
 p {
@@ -77,20 +90,28 @@ p {
 
 a, a:link {
   text-decoration: none;
-  color: grey;
+  color: black;
 }
 
-a:hover {
-  background-color: #99ff99;
-  color: white;
+#about a:hover, #projects a:hover, #contact a:hover, nav a:hover {
+  background-color: #eaa0a2;
+  color: black;
+}
+
+#about a, #projects a, #contact a {
+  color: #eaa0a2;
 }
 
 a:active {
   font-weight: bold;
 }
 
-
 footer {
   margin: 10px auto;
-  font-size: 10px;
+  font-size: 15px;
+  font-family: 'Open Sans Condensed', arial;
+}
+
+footer img {
+  width: 20px;
 }

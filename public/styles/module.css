@@ -38,10 +38,35 @@
 
 }
 
+article {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about br {
+  display: none;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 @media only screen and (min-width: 640px) {
   .icon-menu3 {
   display: none;
-}
+  }
+
+  nav a {
+    padding-left: 16px;
+  }
 
   body {
     width: 1000px;
@@ -50,8 +75,11 @@
   }
   footer {
     height: 50px;
-    margin-top: 500px;
     margin-bottom: 0px;
+  }
+
+  nav ul {
+    display: block;
   }
 
   nav li {
@@ -71,6 +99,11 @@
   .background-limit-2 {
     width: 550px;
     margin-top: 250px;
+  }
+
+  .background-limit-3 {
+    width: 550px;
+    margin-top: 20px;
   }
 
   .education-div {
@@ -104,6 +137,20 @@
     height: auto;
     display: inline-block;
     margin-left: 0px;
+  }
+
+  article {
+    width: 600px;
+    height: auto;
+  }
+
+  .main-margin {
+    margin-top: 60px;
+  }
+
+
+  #about br {
+   display: block;
   }
 
 }

@@ -10,6 +10,12 @@ img {
   margin-top: 2px;
   }
 
+.project-img {
+  width: 200px;
+  height: auto;
+  margin-top: 15px;
+  }
+
 @media only screen and (min-width: 640px) {
   img {
     width: 400px;
@@ -23,4 +29,5 @@ img {
     display: inline-block;
     float: left;
   }
+
 }

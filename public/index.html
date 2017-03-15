@@ -10,31 +10,49 @@ initial-scale=1">
   <link rel="stylesheet" href="/styles/layout.css">
   <link rel="stylesheet" href="/styles/img.css">
   <link rel="stylesheet" href="/styles/module.css">
+  <link rel="icon" type="image/png" href="/images/pizza.png" />
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Bungee+Inline|Open+Sans+Condensed:300" rel="stylesheet">
+
+  <script id="article-template" type="text/x-handlebars-template">
+    <article>
+      <img src="{{imgUrl}}" class="project-img"/>
+      <p>Title: {{title}}</p>
+      <p>Repository Link: <a href="{{repoUrl}}">{{repoUrl}}</a></p>
+      <p>Website Link: <a href="{{siteUrl}}">{{siteUrl}}</a></p>
+      {{{description}}}
+      <br>
+      <p>Resources: <span class="color-4">{{resources}}</span></p>
+      <p>Contributions: {{contributions}}</p>
+      <br>
+    </article>
+  </script>
+</head>
+
   <body>
     <header>
       <h1>Abigail White</h1>
       <nav>
         <span class="icon-menu3"></span>
         <ul>
-          <li class="nav"><a href="#home">Home</a></li>
-          <li class="nav"><a href="#about">About</a></li>
-          <li class="nav"><a href="#projects">Projects</a></li>
-          <li class="nav"><a href="contact">Contact</a></li>
+          <li class="nav"><a href="/">Home</a></li>
+          <li class="nav"><a href="/about">About</a></li>
+          <li class="nav"><a href="/projects">Projects</a></li>
+          <li class="nav"><a href="/contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section id="home">
-        <h4 class="about-div color-4">Hi. I'm Abbi. I am a 22 year-old Full-Stack JavaScript Web Developer.</h4>
+        <h4 class="about-div color-4 main-margin">Hi. I'm Abbi. I am a 22 year-old Full-Stack JavaScript Web Developer.</h4>
         <div id="homepage">
-          <h3 class="home-div color-3">Stalk Me</h3>
-          <h3 class="home-div color-5">Hire Me</h3>
-          <h3 class="home-div color-2">Talk 2 Me</h3>
+          <a href="/about"><h3 class="home-div color-3">Stalk Me</h3></a>
+          <a href="/projects"><h3 class="home-div color-5">Hire Me</h3></a>
+          <a href="/contact"><h3 class="home-div color-2">Talk 2 Me</h3></a>
         </div>
+      </section>
 
-      <section id="about"><h4>About</h4></section>
+      <section id="about"><h4>About</h4>
 
         <h4 class="about-div color-1">Winged-eyeliner. 22 years. Full-Stack JavaScript Web Developer. Economics major.</h4>
         <img src="/images/baby-abbi.jpeg" />
@@ -45,8 +63,8 @@ initial-scale=1">
               <br>
               <p>Major: <span class="color-2"> B.S. Managerial Economics</span></p>
               <p>Concentration in Law; Minor in Global Studies</p>
+              <p>Graduated Magna Cum Laude</p>
               <p>Presidential Scholarship Recipient</p>
-              <p>Awarded President's List Every Semester On Campus</p>
             </div>
 
             <div class="education-div">
@@ -54,14 +72,14 @@ initial-scale=1">
               <h5>London, UK | Sept 2015-June 2016</h5>
               <br>
               <p>General Course Programme: Dept of Economic History</p>
-              <p><span class="color-3">Awarded Firsts in Information Technology Law </span>and Environmental Economics</p>
+              <p>Awarded Firsts in <span class="color-3">Information Technology Law </span>and Environmental Economics</p>
             </div>
 
             <div class="education-div">
               <h3>Code Fellows</h3>
               <h5>Seattle, WA | Jan-June 2017</h5>
               <br>
-              <p>201, 301, 401 Full-Stack JS</p>
+              <p>Completed 201, 301, 401 Full-Stack JS</p>
               <p>Diversity Scholarship Recipient</p>
             </div>
 
@@ -72,24 +90,26 @@ initial-scale=1">
             <h3>HOPE <i>worldwide</i></h3>
             <h5>Honduras and Guatemala | July 2014-Present</h5>
             <br>
-            <p>General Course Programme: Dept of Economic History</p>
-            <p>Awarded Firsts in Environmental Economics and Information Technology and the Law</p>
+            <p>Website Design and Content Creator</p>
+            <p><a href="http://www.hopewwcsbrigades.org">HopeWWCSBrigades.org</a></p>
+            <p>Created content, design, and features of website and online application system.</p>
           </div>
 
           <div  class="education-div">
             <h3>OnForce Inc.</h3>
             <h5>Lexington, MA | May 2015-March 2016</h5>
             <br>
-            <p>Software Product Management Intern</p>
-            <p>Concentration in Law; Minor in Global Studies</p>
+            <p><span class="color-1">Software Product Management Intern</span></p>
+            <p>Resources: SQL database querying</p>
+            <p>Provided analytical data for over 50 product features regarding consumer usage, feature relatability, etc.</p>
           </div>
 
           <div  class="education-div">
             <h3>The Song Factory</h3>
             <h5>Nashville, TN | May-July 2014</h5>
             <br>
-            <p>201, 301, 401 Full-Stack JS</p>
-            <p>Diversity Scholarship Recipient</p>
+            <p>Music Publishing Intern</p>
+            <p>Analyzed data relating to song profitability, songwriting productivity, and predictions regarding future market growth.</p>
           </div>
 
           <h4 class="home-education color-3 background-limit-2">The Future</h4>
@@ -97,7 +117,7 @@ initial-scale=1">
           <div id="future">
             <h3 class="left-align">Relevant Skills</h3>
               <ul class="left-align">
-                <li>Front-End: <span class="color-6">CSS Responsive Design, jQuery Events, JavaScript, DOM Manipulation, Handlebars.js</span></li>
+                <li>Front-End: <span class="color-6">CSS Responsive Design, jQuery Events, JavaScript, DOM Manipulation, Handlebars.js, API configuration</span></li>
                 <li>Back-End: Node.js, Express, SQL querying, Database System Management </li>
                 <li>Organization: GitHub Repository Flow, SMACSS</li>
                 <li>Environments: Unix</li>
@@ -118,22 +138,48 @@ initial-scale=1">
                 <li><span class="color-4">Boston, Seattle, London</span></li>
               </ul>
           </div>
-          <br><br><br>
-          <hr>
-          <p>other things I care about  --books: <span class="color-2">"How to Win Friends and Influence People" (Carniege), "Conscious Capitalism" (Mackey),</span> "Extravagant Grace" (DeGuid)  --music: childish gambino, the staves  --stuff: comfortable shoes, yoga, shakespeare conspiracy theories, <span class="color-6">bruce springsteen,</span> veggies</p>
+          <br><br>
+          <p>other things I care about  --books: <span class="color-2">"How to Win Friends and Influence People" (Carnegie), "Conscious Capitalism" (Mackey),</span> "Extravagant Grace" (DeGuid), "Rich Dad Poor Dad" (Kiyosaki), "Is Everyone Hanging Out Without Me?" (Kaling), "Hooked" (Eyal),  --music: childish gambino, lord huron, chance the rapper, liz anne, joseph   --stuff: comfortable shoes, yoga, shakespeare conspiracy theories, <span class="color-6">bruce springsteen,</span> veggies</p>
 
       </section>
 
 
-      <section id="projects"><h4>Projects</h4></section>
+      <section id="projects"><h4>Projects</h4>
+        <h4 class="about-div color-6">I care about products that promote health and efficiency. I believe in treating consumers with authenticity and respect.</h4>
+        <div></div>
+      </section>
 
-      <section id="contact"><h4>Contact</h4></section>
+      <section id="contact"><h4>Contact</h4>
+        <h4 class="about-div color-1">I want to work with people who are on time, tell the truth, and need to make the world better.</h4>
+        <h4 class="home-education color-5 background-limit-1">Social</h4>
+        <h3 class="left-align">Let's talk<br><br>Follow Me On —</h3>
+        <h5 class="left-align"><a href="https://www.linkedin.com/in/abigail-white-73aa4181">LinkedIn</a>, <a href="http://github.com/abswhite">GitHub</a>, <a href="http://www.instagram.com/abigail.white">Instagram</a>, <a href="http://www.abigailwhitewrites.wordpress.com">Blog</a></h5>
+        <h4 class="home-work color-6 background-limit-3">Email</h4>
+        <h3 class="right-align">say hi —</h3>
+        <h5 class="right-align">by email : abigailwhite213@gmail.com</h5>
+      </section>
 
     </main>
 
-    <footer> </footer>
+    <footer class="site-footer">
+      <img src="/images/pizza.png" /><br>
+      &copy; 2017 A.White
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <script src="/scripts/model/projectsRender.js"></script>
     <script src="/scripts/view/cssViews.js"></script>
+
+    <script src="/scripts/controller/homeController.js"></script>
+    <script src="/scripts/controller/aboutController.js"></script>
+    <script src="/scripts/controller/projectsController.js"></script>
+    <script src="/scripts/controller/contactController.js"></script>
+    <script src="/scripts/controller/routes.js"></script>
+
+    <script>
+      Projects.fetchAll();
+      </script>
   </body>
-  </html>
+</html>

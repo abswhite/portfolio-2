@@ -8,7 +8,6 @@
 
   function navColor() {
     $('.nav:hover').css('background', random_color);
-    console.log('inside navColor');
   };
 
   navColor();
