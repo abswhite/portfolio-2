@@ -6,6 +6,7 @@
   aboutController.init = function() {
     $('#about').show();
     $('nav').show();
+    $('footer').show();
     $('#home').hide();
     $('#projects').hide();
     $('#contact').hide();

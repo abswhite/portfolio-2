@@ -5,6 +5,7 @@
 
   homeController.init = function() {
     $('#home').show();
+    $('footer').show();
     $('#about').hide();
     $('#projects').hide();
     $('#contact').hide();

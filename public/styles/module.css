@@ -49,6 +49,16 @@ article {
   display: none;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 @media only screen and (min-width: 640px) {
   .icon-menu3 {
   display: none;
@@ -62,6 +72,10 @@ article {
   footer {
     height: 50px;
     margin-bottom: 0px;
+  }
+
+  nav ul {
+    display: block;
   }
 
   nav li {
@@ -134,4 +148,5 @@ article {
   #about br {
    display: block;
   }
+
 }

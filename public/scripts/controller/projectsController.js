@@ -6,6 +6,7 @@
   projectsController.init = function() {
     $('#projects').show();
     $('nav').show();
+    $('footer').show();
     $('#home').hide();
     $('#about').hide();
     $('#contact').hide();
