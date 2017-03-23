@@ -50,6 +50,6 @@
     }
   };
 
-
+  Projects.fetchAll();
   module.Projects = Projects;
 }) (window);
