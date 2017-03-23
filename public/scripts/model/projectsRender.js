@@ -32,6 +32,22 @@
     });
   };
 
+  let click = function() {
+    $('.icon-menu3').click(function() {
+        $('nav ul').show();
+        console.log('icon-menu3');
+    })
+  }
+
+  let clickNav = function() {
+    $('nav ul li').click(function() {
+      $('nav ul').hide();
+    });
+  };
+
+  clickNav();
+  click();
+
   Projects.fetchAll = function(callback) {
     if (localStorage.projectsData) {
       Projects.loadAll(JSON.parse(localStorage.projectsData));

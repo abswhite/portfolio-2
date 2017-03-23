@@ -74,9 +74,9 @@ nav ul {
   display: none;
 }
 
-nav:hover ul {
+/*nav:hover ul {
   display: block;
-}
+}*/
 
 nav li {
   font-size: 20px;
