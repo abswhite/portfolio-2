@@ -5,12 +5,14 @@
 
   function Projects (opts) {
     this.title = opts.title;
-    this.description = opts.description;
+    this.concept = opts.concept;
+    this.strategy = opts.strategy;
     this.resources = opts.resources;
     this.imgUrl = opts.imgUrl;
     this.repoUrl = opts.repoUrl;
     this.siteUrl = opts.siteUrl;
     this.contributions = opts.contributions;
+    this.date = opts.date;
   }
 
   Projects.all = [];
