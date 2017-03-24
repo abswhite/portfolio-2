@@ -1,7 +1,9 @@
 [
   {
-    "title": "MEETPUP (February 2017)",
-    "description": "<p>Concept: Connect pet owners to local animal-related events in their area using zip code user input. <br> Strategy: Represent data visually using maps and markers.</p>",
+    "title": "MEETPUP",
+    "concept": "Connect pet owners to local animal-related events in their area using zip code user input.",
+    "strategy": "Represent data visually using maps and markers.",
+    "date": "FEB 2017",
     "imgUrl": "/images/meetpup-logo-large.png",
     "resources": "jQuery, handlebars.js, page.js, MeetUp API, Google Maps API, Moment.js, Wrights HQ",
     "repoUrl": "https://github.com/MeetPup/301_final_project",
@@ -9,8 +11,10 @@
     "contributions": "Created entire CSS theme (colors, design, logo), including CSS mobile responsiveness (page layout and navigation). I worked with Robert to analyze and configure both the Google Maps and MeetUp API using ajax calls and proxies. I helped develop input validation and persist zip code data on the page through use of localStorage. In addition, I formated the map and map content and collaborated with team members to debug code for special cases, such as 'no events' near zip code, invalid zip codes, zip codes outside of the United States, etc. I also took on a managerial role by facilitating group synch-ups, manual group coding, and work delegation."
   },
   {
-    "title": "Take a Hike! (January 2017)",
-    "description": "<p>Concept: Help users identify their perfect hike based on their self-reported experiences, tastes, and preferred proximity to near-death.<br>Strategy: Utilize 10-question quiz format.</p>",
+    "title": "Take a Hike!",
+    "concept": "Help users identify their perfect hike based on their self-reported experiences, tastes, and preferred proximity to near-death.",
+    "strategy": "Utilize 10-question quiz format.",
+    "date": "JAN 2017",
     "imgUrl": "/images/take-a-hike-logo-large.png",
     "resources": "vanilla JS",
     "repoUrl": "https://github.com/abswhite/take-a-hike",
