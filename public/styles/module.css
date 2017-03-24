@@ -49,23 +49,29 @@ article {
   display: none;
 }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+.nav1 {
+  display: none;
 }
 
-main {
-  flex: 1;
-}
 
 @media only screen and (min-width: 640px) {
   .icon-menu3 {
   display: none;
   }
 
-  nav a {
-    padding-left: 16px;
+  .nav1 ul{
+    display: block;
+  }
+
+  .nav1 li {
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 2px;
+  }
+
+  .nav1 li:hover {
+    background-color: #eaa0a2;
+
   }
 
   body {
@@ -73,17 +79,10 @@ main {
     margin-left: auto;
     margin-right: auto;
   }
+
   footer {
     height: 50px;
     margin-bottom: 0px;
-  }
-
-  nav ul {
-    display: block;
-  }
-
-  nav li {
-    display: inline-block;
   }
 
   .about-div {
@@ -132,6 +131,7 @@ main {
   #homepage {
     margin-top: 40px;
   }
+
   #future {
     width: 698px;
     height: auto;
@@ -148,9 +148,7 @@ main {
     margin-top: 60px;
   }
 
-
   #about br {
    display: block;
   }
-
 }
