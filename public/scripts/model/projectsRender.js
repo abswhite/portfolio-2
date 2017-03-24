@@ -34,14 +34,14 @@
 
   let click = function() {
     $('.icon-menu3').click(function() {
-        $('nav ul').show();
+        $('.nav ul').show();
         console.log('icon-menu3');
     })
   }
 
   let clickNav = function() {
-    $('nav ul li').click(function() {
-      $('nav ul').hide();
+    $('.nav ul li').click(function() {
+      $('.nav ul').hide();
     });
   };
 
