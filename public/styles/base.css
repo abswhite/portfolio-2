@@ -38,8 +38,9 @@ h3 {
 
 h1 {
   color: black;
-  font-size: 40px;
+  font-size: 35px;
   font-family: 'Cutive Mono', monospace;
+  margin-top: 40px;
 }
 
 h4 {
