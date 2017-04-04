@@ -71,8 +71,9 @@ article {
 
   .nav1 li {
     display: inline-block;
-    padding-left: 20px;
-    margin-left: 2px;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .nav1 li:hover {

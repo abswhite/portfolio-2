@@ -34,6 +34,7 @@
     });
   };
 
+  // Click functionality
   let click = function() {
     $('.icon-menu3').click(function() {
         $('.nav ul').show();
@@ -50,11 +51,8 @@
   clickNav();
   click();
 
+  // Render projects
   Projects.fetchAll = function(callback) {
-    if (localStorage.projectsData) {
-      Projects.loadAll(JSON.parse(localStorage.projectsData));
-      projectView.projectsRender();
-    } else {
       $.getJSON('/data/projectsJSON.json')
       .then(function(projectsData) {
         Projects.loadAll(projectsData);
@@ -65,8 +63,7 @@
         if (callback)
           callback();
       })
-    }
-  };
+    };
 
   Projects.fetchAll();
   module.Projects = Projects;
