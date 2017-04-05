@@ -18,7 +18,7 @@
   Projects.all = [];
 
   Projects.prototype.toHtml = function() {
-    let template = Handlebars.compile($('#article-template').text());
+    let template = Handlebars.compile($('#individual-template').text());
     return template(this);
   };
 
@@ -30,13 +30,13 @@
 
   projectView.projectsRender = function() {
     Projects.all.forEach(function(a) {
-      $('#projects div').append(a.toHtml());
+      $('#individual').append(a.toHtml());
     });
   };
 
   // Render projects
   Projects.fetchAll = function(callback) {
-      $.getJSON('/data/projectsJSON.json')
+      $.getJSON('/data/individualProjects.json')
       .then(function(projectsData) {
         Projects.loadAll(projectsData);
         localStorage.setItem('projectsData', JSON.stringify(projectsData));
