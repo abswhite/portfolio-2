@@ -25,6 +25,19 @@ initial-scale=1">
       <br>
     </article>
   </script>
+
+  <script id="individual-template" type="text/x-handlebars-template">
+    <article>
+      <img src="{{imgUrl}}" class="project-img"/>
+      <p>{{title}}: <a href="{{siteUrl}}" target="_blank">website</a> || <a href="{{repoUrl}}" target="_blank">repository</a> ({{date}})</p>
+      <p>Concept: {{concept}}</p>
+      <p>Strategy: {{strategy}}</p>
+      <br>
+      <p>Resources: {{resources}}</p>
+      <p>Contributions: {{contributions}}</p>
+      <br>
+    </article>
+  </script>
 </head>
 
   <body>
@@ -158,9 +171,7 @@ initial-scale=1">
         <h4 class="about-div color-6">I care about habit-forming products that promote health and efficiency && believe in treating consumers with dignity.</h4>
 
         <h3>Individual Projects</h3>
-        <p class="mobile-width">TUMBLR INDIE TEXT GENERATOR: <a href="http://text-generator.herokuapp.com" target="_blank">website</a> || <a href="https://github.com/abswhite/jquery-test" target="_blank">repository</a> (MARCH 2017)</p>
-        <p class="mobile-width">PERSONAL PORTFOLIO: <a href="http://abigailwhiteportfolio.herokuapp.com" target="_blank">website</a> || <a href="https://github.com/abswhite/portfolio-2" target="_blank">repository</a> (MARCH 2017)</p>
-
+        <p id="individual"></p<
         <br>
         <hr>
 
@@ -190,6 +201,7 @@ initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
 
     <script src="/scripts/model/projectsRender.js"></script>
+    <script src="/scripts/model/indivProjectsRender.js"></script>
     <script src="/scripts/view/cssViews.js"></script>
 
     <script src="/scripts/controller/homeController.js"></script>
