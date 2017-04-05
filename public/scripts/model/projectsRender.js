@@ -34,23 +34,6 @@
     });
   };
 
-  // Click functionality
-  let click = function() {
-    $('.icon-menu3').click(function() {
-        $('.nav ul').show();
-        console.log('icon-menu3');
-    })
-  }
-
-  let clickNav = function() {
-    $('.nav ul li').click(function() {
-      $('.nav ul').hide();
-    });
-  };
-
-  clickNav();
-  click();
-
   // Render projects
   Projects.fetchAll = function(callback) {
       $.getJSON('/data/projectsJSON.json')
