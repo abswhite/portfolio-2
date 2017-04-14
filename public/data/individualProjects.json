@@ -11,11 +11,11 @@
     "contributions": "Created entire CSS theme (colors, design, logo), including CSS mobile responsiveness (page layout and navigation). I worked with Robert to analyze and configure both the Google Maps and MeetUp API using ajax calls and proxies. I helped develop input validation and persist zip code data on the page through use of localStorage. In addition, I formated the map and map content and collaborated with team members to debug code for special cases, such as 'no events' near zip code, invalid zip codes, zip codes outside of the United States, etc. I also took on a managerial role by facilitating group synch-ups, manual group coding, and work delegation."
   },
   {
-    "title": "Portfolio",
+    "title": "Personal Portfolio",
     "concept": "Create simple, personal website that links to coding projects and provides relevant education and career background to potential professional partners.",
     "strategy": "Intuitive, attractive, and simple 4-page website display.",
     "date": "MARCH 2017",
-    "imgUrl": "/images/pizza-2.png",
+    "imgUrl": "/images/bird.png",
     "resources": "jQuery, handlebars.js, page.js",
     "repoUrl": "https://github.com/abswhite/portfolio-2",
     "siteUrl": "http://abigailwhiteportfolio.herokuapp.com/",
