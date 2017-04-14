@@ -18,7 +18,7 @@
     "imgUrl": "/images/bird.png",
     "resources": "jQuery, handlebars.js, page.js",
     "repoUrl": "https://github.com/abswhite/portfolio-2",
-    "siteUrl": "http://abigailwhiteportfolio.herokuapp.com/",
+    "siteUrl": "http://www.abswhite.com/",
     "contributions": "Created initial UI theme and CSS layout used throughout website (colors, page flow, box positions and appearance) for homepage, results pages, quiz page, and about us page. I determined fonts, html content and structure on all pages, peer-programmed localStorage of quiz results, found and inserted background images from unsplash.com, created logo, implemented head tags for posting website url, meta tags, favicon. In addition, I peer-programmed the initial js functionality using arrays and helped determine overall js layout. I contributed extensively to create of results content and questions, standardized button formats, added functionality to logo in navigation, and added png images and links to GitHub, linkedIn, and email in about page."
   },
   {
